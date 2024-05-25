@@ -1,0 +1,76 @@
+.hero-para {
+  font-size: clamp(1rem, -1.9091rem + 6.0606vw, 1.5rem);
+}
+
+.hero-h2 {
+  font-size: clamp(1rem, -1.9091rem + 6.0606vw, 1.5rem);
+}
+.hero-head {
+  font-size: clamp(2rem, -3.8182rem + 12.1212vw, 3rem);
+}
+.input-div {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #0a4978;
+  padding: 5px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.input-div:hover {
+  box-shadow: 1px 1px 3px #0a4978;
+}
+.input-div input {
+  padding: 5px 10px;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: white;
+}
+.input-div button {
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to right,
+    #0a4978,
+    #285380,
+    #3b5d88,
+    #4b6791,
+    #5b7299,
+    #6674a4,
+    #7674ae,
+    #8a73b4,
+    #b05fab,
+    #d4418e,
+    #eb1d5e,
+    #eb1f1f
+  );
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+.animated-div {
+  animation: bounce 3s ease-in-out 0.1s infinite;
+  max-height: 400px;
+  max-width: 400px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .animated-div {
+    height: 250px;
+    width: 250px;
+  }
+}

@@ -1,0 +1,10 @@
+.app{
+    background-image: linear-gradient(to right top, #000000, #070003, #0b0109, #0d0310, #0b0516); 
+}
+
+span{
+    background-image: linear-gradient(to right, #0a4978, #285380, #3b5d88, #4b6791, #5b7299, #6674a4, #7674ae, #8a73b4, #b05fab, #d4418e, #eb1d5e, #eb1f1f);
+    -webkit-background-clip: text;
+    background-clip:text;
+    color: transparent;
+}

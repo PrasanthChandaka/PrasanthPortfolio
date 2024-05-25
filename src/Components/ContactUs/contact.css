@@ -1,0 +1,10 @@
+.social div{
+    border-radius: 10px;
+    cursor: pointer;
+    border: 3px solid #B05FAB;
+}
+input,textarea,button{
+    border: 3px solid #B05FAB;
+    border-radius: 10px;
+    color: white;
+}

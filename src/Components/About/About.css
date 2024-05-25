@@ -1,0 +1,33 @@
+
+    /* .img-container::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    left: 0;
+    top: 0;
+} */
+
+
+
+.img-container{
+    position: relative;
+    overflow: hidden;
+    
+}
+.img-container img{
+    filter: grayscale(100%);
+}
+
+.about-para{
+    font-size: clamp(0.9375rem, -1.3068rem + 4.5455vw, 1.25rem);
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    .img-container{
+        max-height: 300px;
+        max-width: 300px;
+    }
+}

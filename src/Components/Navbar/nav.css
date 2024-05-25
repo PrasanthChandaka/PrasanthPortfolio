@@ -1,0 +1,26 @@
+.list-none{
+    font-family: "Roboto";
+}
+
+.mobile-nav-open{
+    transform: translateY(0);
+    transition: 0.3s all ease,transform 0.5s;
+    background-color: rgba(255, 255, 255,0.25);
+    backdrop-filter: blur(20px);
+}
+.mobile-nav-close{
+    transform: translateY(-100%);
+    transition: 0.3s all ease,transform 0.5s;
+    background-color: rgba(255, 255, 255,0.25);
+    backdrop-filter: blur(20px);
+}
+
+a:hover{
+    color: #0A4978;
+    transition:all 0.3s linear;
+}
+
+.active{
+    color: #0A4978;
+    transition:all 0.3s linear;
+}

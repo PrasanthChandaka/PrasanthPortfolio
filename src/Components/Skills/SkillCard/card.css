@@ -1,0 +1,33 @@
+.unordered-skills-list li{
+    display: grid;
+    place-items: center;
+    min-height: 90px;
+    border: 3px solid #b05fab;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.unordered-skills-list li:hover{
+    background-color: #b05fab;
+}
+.active{
+    background-color: #b05fab;
+}
+
+.skill-icon-container{
+    border: 3px solid #b05fab;
+    padding: 10px;
+    max-height: 50px;
+    max-width: 50px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    bottom: -100%;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    border-radius: 10px;
+}
